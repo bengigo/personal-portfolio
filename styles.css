@@ -224,7 +224,7 @@ h1 {
   margin-left: 16px;
   margin-right: 16px;
   height: auto;
-  width: calc(100% - 32px);
+  width: calc(100% - 100px);
 }
 
 h3 {
@@ -594,6 +594,7 @@ textarea {
   line-height: 30px;
   background-color: white;
   margin: 12px 16px;
+  text-align: center;
 }
 
 .tags-buttons {

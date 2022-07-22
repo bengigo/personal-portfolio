@@ -20,19 +20,19 @@ const worksInfo = [
   {
   // project 1
     cardDisplay: 'cards work1',
-    workImgMobile: 'images/works/mobile-w1.svg',
-    workImgDesktop: 'images/works/desktop-w1.svg',
-    workTitle: 'Tonic',
-    company: 'CANOPY',
+    workImgMobile: 'images/works/awesome-books.png',
+    workImgDesktop: 'images/works/awesome-books.png',
+    workTitle: 'Awesome Books',
+    company: 'MICROVERSE',
     jobTitle: 'Back End Dev',
-    year: '2015',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    year: '2022',
+    description: 'A Single Page Application to create a list of book collection.',
     htmlBadge: 'html',
-    rubyBadge: 'ruby',
+    // rubyBadge: 'ruby',
     cssBadge: 'css',
     jsBadge: 'javaScript',
     buttonText: 'See Project',
-    modalDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    modalDescription: 'A Single Page Application to create a list of book collection.',
     ghBadge: 'github',
     bootstrapBadge: 'Bootstrap',
     modalButton1Text: 'See live',
@@ -134,7 +134,6 @@ Array.from(worksSection.children).forEach((child, index) => {
       <p class="work-info">${worksInfo[index].description}</p>
       <ul class="tags">
         <li class="html tag">${worksInfo[index].htmlBadge}</li>
-        <li class="ruby tag">${worksInfo[index].rubyBadge}</li>
         <li class="css tag">${worksInfo[index].cssBadge}</li>
         <li class="js tag">${worksInfo[index].jsBadge}</li>
       </ul>
@@ -179,12 +178,10 @@ seeProject.forEach((element) => {
             </ul>
             <ul class="modal-tags">
               <li class="modal-gh tag">${worksInfo[element.id].ghBadge}</li>
-              <li class="modal-ruby tag">${worksInfo[element.id].rubyBadge}</li>
-              <li class="modal-bootstrap tag">${worksInfo[element.id].bootstrapBadge}</li>
             </ul>
             <div class="modal-buttons">
-              <a class="live-link" href=""><button class="live modal-btn">See Live <img class="btn-image" src="images/live.png" alt="Live Preview"></button></a>
-              <a class="source-link" href=""><button class="source modal-btn">See Source <img class="btn-image" src="images/source.svg" alt="Source Code"></button></a>
+              <a class="live-link" href="https://bengigo.github.io/awesome-books-modules/"><button class="live modal-btn">See Live <img class="btn-image" src="images/live.png" alt="Live Preview"></button></a>
+              <a class="source-link" href="https://github.com/bengigo/awesome-books-modules"><button class="source modal-btn">See Source <img class="btn-image" src="images/source.svg" alt="Source Code"></button></a>
             </div>
           <div>
         </div>
